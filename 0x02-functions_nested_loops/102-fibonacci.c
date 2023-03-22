@@ -7,14 +7,14 @@
 int main(void)
 {
 int i;
-long long a = 1, b = 2, c;
+long a = 1, b = 2, c;
 
-printf("%lld, %lld, ", a, b);
+printf("%ld, %ld, ", a, b);
 
 for (i = 3; i <= 50; i++)
 {
 c = a + b;
-printf("%lld", c);
+printf("%ld", c);
 if (i != 50)
 printf(", ");
 a = b;
