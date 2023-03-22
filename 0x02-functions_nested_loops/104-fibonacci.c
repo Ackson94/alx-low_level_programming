@@ -28,14 +28,14 @@ for (count = 93; count < 99; count++)
 m = a + b;
 k = c + d;
 
-if (b + d > 999999999)
+if (b + d > 9999999999)
 {
 m += 1;
 k %= 1000000000;
 }
 printf("%lu%lu", m, k);
 if (count != 98)
-printf(",");
+printf(", ");
 a = c;
 b = d;
 c = m;
