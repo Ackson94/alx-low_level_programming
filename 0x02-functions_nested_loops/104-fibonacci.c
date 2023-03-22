@@ -42,6 +42,6 @@ c = m;
 d = k;
 }
 
-printf"\n");
+printf("\n");
 return (0);
 }
