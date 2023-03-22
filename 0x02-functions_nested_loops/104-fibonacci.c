@@ -7,8 +7,7 @@
 int main(void)
 {
 int count;
-unsigned long y = 0;
-unsigned long z = 1, sum;
+unsigned long y = 0; z = 1, sum;
 unsigned long a, b, c, d;
 unsigned long m, k;
 
