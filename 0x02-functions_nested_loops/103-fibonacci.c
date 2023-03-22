@@ -22,6 +22,6 @@ j = a - j;
 }
 }
 
-printf("%ld\n" sum);
+printf("%ld\n", sum);
 return (0);
 }
