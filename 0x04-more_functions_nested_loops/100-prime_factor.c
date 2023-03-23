@@ -8,7 +8,7 @@
 int main(void)
 {
 long int n;
-long int max
+long int max;
 long int a;
 
 n = 612852475143;
@@ -23,7 +23,7 @@ n /= 2;
 for (a = 3; a <= sqrt(n); a = a + 2)
 {
 
-while (n % i == 0)
+while (n % a == 0)
 {
 max = a;
 n = n / a;
