@@ -8,25 +8,25 @@
  */
 int main(void)
 {
-int a[100];
-int i, sum, n;
+    int password[100];
+    int i, n, sum;
 
-sum = 0;
+    sum = 0;
+    srand(time(NULL));
 
-srand(time(NULL);
+    for (i = 0; i < 100; i++)
+    {
+        password[i] = rand() % 78;
+        sum += (password[i] + '0');
+        putchar(password[i] + '0');
+        if ((2772 - sum) - '0' < 78)
+        {
+            n = 2772 - sum - '0';
+            sum += n;
+            putchar(n + '0');
+            break;
+        }
+    }
+    return 0;
+}
 
-for (i = 0; i < 100; i++)
-{
-a[i] = rand() % 78;
-sum += (a[i] + '0';
-putchar(a[i] + '0';
-if ((2772 - sum) - '0' < 78)
-{
-n = 2772 - sum - '0';
-sum += n;
-putchar(n + '0');
-break;
-}
-}
-return (0);
-}
