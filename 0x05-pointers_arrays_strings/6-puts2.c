@@ -1,31 +1,23 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * puts2 - a function that prints every other character of a string
- * @str: its a variable
+ * puts2 - prints one char out of 2 of a string.
+ * @str: input string.
+ * Return: 0 or 1
  */
 void puts2(char *str)
 {
-int value = 0;
-int a = 0;
-char *x = str;
-int z;
+int count = 0;
 
-while (*x != '0')
+while (count >= 0)
 {
-x++;
-value++;
-}
-
-a = value - 1;
-
-for (z = 0; z <= a; z++)
+if (str[count] == '\0')
 {
-if (z % 2 == 0)
-{
-_putchar(str[z]);
-}
-}
 _putchar('\n');
+break;
+}
+if (count % 2 == 0)
+_putchar(str[count]);
+count++;
+}
 }
