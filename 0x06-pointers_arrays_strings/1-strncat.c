@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
- * _strncat - a function that concatenates two strings.
- * @dest: its a variable
- * @src: its a variable
- * @n:its a variable
- * return: 0 or 1
+ * _strncat - concatenate two strings, up to n bytes from src
+ * @dest: pointer to destination string
+ * @src: pointer to source string
+ * @n: maximum number of bytes to copy from src
+ *
+ * Return: pointer to destination string
  */
 char *_strncat(char *dest, char *src, int n)
 {
@@ -24,6 +25,7 @@ dest[a] = src[b];
 a++;
 b++;
 }
-dest[a} = '\0';
+dest[a] = '\0';
+
 return (dest);
 }
