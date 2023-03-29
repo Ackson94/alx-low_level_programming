@@ -2,7 +2,8 @@
 
 /**
  * main - prints a[2] = 98
- * return: 0 or 1
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
