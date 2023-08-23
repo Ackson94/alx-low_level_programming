@@ -2,4 +2,4 @@
 This project, was based on writing Makefiles.
 <h1>Tasks</h1>
 
-./0. make -f 0-Makefile
+./ 0. make -f 0-Makefile
