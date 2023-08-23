@@ -4,7 +4,7 @@ In this project, It based on  writing Makefiles.
 <h1>Tasks</h1>
 
 # 0. make -f 0-Makefile
-   ## Create your first Makefile.
+   # Create your first Makefile.
 
     Requirements:
     
